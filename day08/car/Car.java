@@ -9,6 +9,19 @@ public class Car {
 		private int cfSize;
 		private int speed;
 		private int maxSpeed;
+		private int defaultSize = 100;
+		
+		private int serial;
+		private static int count =1;
+		//inintialization block
+		{
+			count++;
+			serial = count;
+		}
+		static {
+			count += 1000;
+		}
+		
 		//constructor
 		public Car() { //default constructor
 			this.name = "K1";

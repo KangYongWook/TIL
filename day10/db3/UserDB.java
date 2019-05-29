@@ -1,0 +1,17 @@
+package db3;
+
+public class UserDB extends DB<User, String> {
+
+	@Override
+	public void insert(User obj) {
+		// TODO Auto-generated method stub
+		System.out.println(obj.getId()+""+obj.getName()+" inserted");
+	}
+
+	@Override
+	public User select(String obj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

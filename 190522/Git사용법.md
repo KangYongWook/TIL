@@ -19,9 +19,13 @@ git push -u orgin master
 # II.이미 만들어진프로젝트에 추가하는 순서
 
 ```
+cd TIL
 git status
 git add .
-git commit -m "메시지"
-git push -u orgin master
+git status
+git commit -m "국비 java 과정"
+git push -u origin master
+아이뒤
+비번
 ```
 
